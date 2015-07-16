@@ -8,6 +8,7 @@ gem 'rails', '4.0.8'
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3'
+  gem 'quiet_assets', '~> 1.1.0'
 end
 
 group :production do
@@ -17,6 +18,7 @@ end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
+gem 'bootstrap-sass', '~> 3.3.5'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
