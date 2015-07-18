@@ -9,6 +9,7 @@ gem 'rails', '4.0.8'
 group :development do
   gem 'sqlite3'
   gem 'quiet_assets', '~> 1.1.0'
+  gem 'faker', '~> 1.4.3'
 end
 
 group :production do
