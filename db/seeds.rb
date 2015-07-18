@@ -7,5 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 20.times do
   User.create(name: Faker::Name.name, email: Faker::Internet.email)
-  Micropost.create(content: Faker::Lorem.sentence(3), user_id: Faker::Number.between(1, 20))
+  Micropost.create(content: Faker::Lorem.sentence(3), user_id: Faker::Number.between(42, 61))
 end
