@@ -9,7 +9,6 @@ gem 'rails', '4.0.8'
 group :development do
   gem 'sqlite3'
   gem 'quiet_assets', '~> 1.1.0'
-  gem 'faker', '~> 1.4.3'
 end
 
 group :production do
@@ -38,6 +37,8 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+gem 'faker', '~> 1.4.3'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
